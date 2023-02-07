@@ -1,9 +1,9 @@
 
 {
-  "module_name": "ldo",
+  "module_name": "Taro_ldo",
   "generator": "ldo-gen",
   "specifications": {
-    "vin": 0.8,
+    "vin": 0.9,
     "imax": "1e-03",
     "dropout": "0.05"
   }

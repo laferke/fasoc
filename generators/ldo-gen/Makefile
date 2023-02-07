@@ -26,7 +26,7 @@ gen_12lp:
 	./tools/ldo_gen.py --specfile test.json --output ./work --platform gf12lp
 
 gen_12lp_macro:
-	./tools/ldo_gen.py --specfile test.json --output ./work --platform gf12lp --mode macro
+	./tools/ldo_gen.py --specfile test.json --output ./work --platform gf12lp --mode macro --gf12lpTrack 9T
 
 gen_12lp_full:
 	./tools/ldo_gen.py --specfile test.json --output ./work --platform gf12lp --mode full

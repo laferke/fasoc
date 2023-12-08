@@ -20,7 +20,7 @@ module ldoInst(
    reg             ctrl_in, mode;
    reg [ARRSZ-1:0] pt_ctrl_word;
 
-   LDO_COMPARATOR cmp1 (.CLK(clk), 
+   LDO_COMPARATOR cmp1 (.CLK(~clk), 
                         .VREF(VREF), 
                         .OUT(cmp_out));
 

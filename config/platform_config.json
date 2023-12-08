@@ -27,9 +27,9 @@
     "gf12lp": {
       "nominal_voltage": 0.8,
       "aux_lib": "/data/projects/12LP/Taro/kbr/laferke/FASoC_gf12_9T_aux_lib",
-      "model_lib": "/workspace/laferke/Taro_fasoc/fasoc/generators/ldo-gen",
-      "calibreRules": "/data/design_kits/GF/12LP/V1.0_4.1/DRC/Calibre/cmos12lp.drc.cal", 
-      "hspiceModels": "/afs/eecs.umich.edu/kits/GF/12LP/V1.0_2.1/Models/HSPICE/models",
+      "model_lib": "/workspace/laferke/Taro_fasoc/fasoc_models",
+      "calibreRules": "/data/design_kits/GF/12LP/V1.0_7.0/DRC/Calibre/cmos12lp.drc.cal",
+      "hspiceModels": "/data/design_kits/GF/12LP/V1.0_7.0/Models/HSPICE/models",
       "database": "/afs/eecs.umich.edu/cadre/projects/fasoc/share/database_12lp"
     }
   }

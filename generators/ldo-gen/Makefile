@@ -23,7 +23,7 @@ model_8hp:
 	./tools/ldo_model.py --platform gfbicmos8hp
 
 gen_12lp:
-	./tools/ldo_gen.py --specfile test.json --output ./work --platform gf12lp
+	./tools/ldo_gen.py --specfile test.json --output ./work --platform gf12lp --gf12lpTrack 9T
 
 gen_12lp_macro:
 	./tools/ldo_gen.py --specfile test.json --output ./work --platform gf12lp --mode macro --gf12lpTrack 9T

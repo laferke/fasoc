@@ -1,0 +1,1 @@
+./tools/PLL_GEN_Beta.py --specfile test_alpha12.json --output /workspace/laferke/Taro_fasoc/fork2_ssh/fasoc_adpll_freqTest/ --platform gf12lp --mode macro --run_vsim 0 --synth_tool genus --track 9

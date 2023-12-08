@@ -1,10 +1,10 @@
 
 {
-  "module_name": "Taro_ldo",
+  "module_name": "Taro_fasoc_dldo_50mv_15ma_floorplan2",
   "generator": "ldo-gen",
   "specifications": {
     "vin": 0.9,
-    "imax": "1e-03",
-    "dropout": "0.05"
+    "imax": "15e-03",
+    "dropout": "0.050"
   }
 }
